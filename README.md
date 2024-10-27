@@ -32,7 +32,7 @@ I created this quick app with the help of GPT to make my colleagues' lives easie
 ## 📋 Prerequisites
 Use the deployed version withoue prerequistes: 
 
-or 
+or
 
 Make sure you have Python 3.8+ installed.
 

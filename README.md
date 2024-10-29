@@ -30,35 +30,51 @@ I created this quick app with the help of GPT to make my colleagues' lives easie
     A step-by-step guide on how to remove high bounce rate emails from Mailchimp.
 
 ## 📋 Prerequisites
-Use the deployed version withoue prerequistes: 
+Use the deployed version without prerequistes: https://mailchimpemailbouncecounter.streamlit.app/
 
 or
 
 Make sure you have Python 3.8+ installed.
 
-Install the required Python packages:
-```
-pip install streamlit pandas
-```
 
- use the deployed version withoue prerequistes.
 
 ## 🚀 How to Run
 
-Access the deployed version of this app, visit:
+Access the deployed version of this app, visit: https://mailchimpemailbouncecounter.streamlit.app/
 
 or
 
-Clone this repository:
-```
-git clone https://github.com/Peggypei98/Mailchimp_email_bounce_counter.git
-cd Mailchimp_email_bounce_counter.git
-```
+1. Clone this repository:
+    ```
+    git clone https://github.com/Peggypei98/Mailchimp_email_bounce_counter.git
+    cd Mailchimp_email_bounce_counter.git
+    ```
 
-Run the app:
-```
-streamlit run app.py
-```
+2. Create a Virtual Environment
+It’s recommended to use a virtual environment to manage dependencies and avoid conflicts with other Python packages.
+
+    On Windows
+    ```
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    ```
+
+    On MacOS/Linux:
+    ```
+    python3 -m venv .venv
+    source .venv/bin/activate
+    ```
+
+3. Install Dependencies
+With the virtual environment activated, install the required dependencies listed in requirements.txt:
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. Run the app:
+    ```
+    streamlit run app.py
+    ```
 
 Open the app:
 
@@ -97,7 +113,7 @@ With an attached csv result for download.
 | Email Address  | First Name | Last Name | Bounce Type |
 | ------------- | ------------- | ------------- | ------------- |
 | example1@mail.com  | Abby  | Doe | Soft  |
-| example1@mail.com  |  Jane  | Smith | Hard |
+| example2@mail.com  |  Jane  | Smith | Hard |
 
 ## 📥 Guide: How to Remove High Bounce Rate Emails from Mailchimp
 After filtering out the high bounce rate data and downloading it as a CSV file, follow these steps to remove those emails from Mailchimp:
